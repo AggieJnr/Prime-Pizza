@@ -10,48 +10,70 @@
     font-style: bold;
     position: relative;
 }
+
 .about-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 15px brown;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  padding-top: 8rem;
-  padding-bottom: 20px;
-  padding-left: 6%;
-  padding-right: 6%;
-  width: 75rem;
-  height:500px ;
-  color: white;
-  text-align: center;
-  position: fixed;
-}
-#text1{
-    text-decoration-line: underline;
-    text-decoration-color: turquoise;
-}
-.aboutcontent{
-    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px brown;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 75rem;
+    height:500px ;
+    color: white;
     text-align: center;
-}
-.carouselslide{
-    margin-top: 60rem;
-}
-.jumbotron{
-    background-image: url("../images/pizza-background_about.jpg");
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: fixed;
+  }
+  #text1{
+      text-decoration-line: underline;
+      text-decoration-color: turquoise;
+  }
+  .aboutcontent{
+      width: 300px;
+      text-align: center;
+  }
+  .carouselslide{
+      margin-top: 60rem;
+  }
+  .jumbotron{
+      background-image: url("../images/pizza-background_about.jpg");
+      height: 700px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      
+  }
+  .jumbobtn{
+    text-align: center;
+    margin-top: 15rem;
+    border: indianred,5px;
+    margin-left: 35rem;
+    width: 15rem;
+    height: 5rem;
+    font-style: bold;
+    font-size: large;
+    background-color: transparent;
+  }
+  .contact{
+    background-image: url("../images/contactusheader.jpg");
     background-attachment: fixed;
-    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 500px;
+
 }
-.jumbobtn{
+ #formcontact{
+  margin-top: 5rem;
+}
+.callno{
+  margin-top: 8rem;
+  margin-left: 10rem;
+}
+#message{
   text-align: center;
-  margin-top: 15rem;
-  border: indianred,5px;
-  margin-left: 35rem;
-  width: 15rem;
-  height: 5rem;
-  font-style: bold;
-  font-size: large;
-  background-color: transparent;
 }
