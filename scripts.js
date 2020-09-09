@@ -407,7 +407,7 @@ $(document).ready(function () {
                     person +
                     ", We have recieved your order we're going to delivere it to you in 45 minutes max time at " +
                     location +
-                    ". Prepare sh. " +
+                    ". Prepare Ksh. " +
                     deliceryamount
                 );
                 $("#totalbill").hide();
