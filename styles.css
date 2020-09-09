@@ -5,7 +5,7 @@ li{
       float: right;
   }
 .about{
-    background-image: url("../images/pizza image (5).jpg");
+    background-image: url("./images/pizza image (5).jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -57,7 +57,7 @@ li{
   }
 
   .jumbotron{
-      background-image: url("../images/pizza-background_about.jpg");
+      background-image: url("./images/pizza-background_about.jpg");
       height: 700px;
       background-repeat: no-repeat;
       background-size: cover;
@@ -77,7 +77,7 @@ li{
   }
   
   .contact{
-    background-image: url("../images/contactusheader.jpg");
+    background-image: url("./images/contactusheader.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -105,7 +105,7 @@ li{
   }
   .order {
     background-attachment: fixed;
-    background-image: url("../images/pizza image (5).jpg");
+    background-image: url("./images/pizza image (5).jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -232,5 +232,11 @@ li{
     border: 1px solid #fff;
     color: turquoise;
     cursor: pointer;
+  }
+  .btn{
+    color: rgb(245, 241, 241);
+    font-weight: bold;
+    font-size: medium;
+    border: 2px solid rgb(53, 49, 33);
   }
 
